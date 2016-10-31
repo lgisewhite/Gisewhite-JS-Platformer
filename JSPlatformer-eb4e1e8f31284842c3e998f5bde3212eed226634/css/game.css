@@ -7,6 +7,8 @@
 .floater	   { background: rgb(24, 247, 0);	}
 .actor{position: absolute;}
 .player{background: white;}
+.coin {background: rgb(241, 229,89);}
+.point {background: red;}
 
 .game {
   overflow: hidden;
