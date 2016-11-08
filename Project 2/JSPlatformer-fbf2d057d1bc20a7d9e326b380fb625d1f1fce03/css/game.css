@@ -1,0 +1,57 @@
+.background {
+    background: black; 
+    background: -webkit-linear-gradient(black, rgb(24, 247, 0)); 
+    background: -o-linear-gradient(black, rgb(24, 247, 0)); 
+    background: -moz-linear-gradient(black, rgb(24, 247, 0)); 
+    background: linear-gradient(black, rgb(24, 247, 0)); 
+	table-layout: fixed;
+    border-spacing: 0; 
+}
+.background td { 
+	padding: 0;
+	}
+.lava{ 
+	background: white;
+	}
+.wall{
+	background: rgb(24, 247, 0);
+	}
+.shrink {
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 2px; 
+	background: rgb(24, 247, 0);
+	}
+.grow{  
+	border-radius: 3px;
+    border: 2px solid black;
+    padding: 2px; 
+	background: rgb(24, 247, 0);
+	}
+.actor{
+	position: absolute;
+	}
+.player{
+	background: white;
+	}
+.coin {
+	background: rgb(241, 229,89);
+	}
+.laser {
+	background: red;
+	}
+
+.game {
+	overflow: hidden;
+	max-width: 600px;
+	max-height: 450px;
+	position: relative;
+}
+
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px rgb(24, 247, 0), 4px -7px 8px rgb(24, 247, 0);
+}
